@@ -1,4 +1,4 @@
-const VERSION = 'CMC-v.0.0.1';
+const VERSION = 'CMC-v.0.0.2';
 
 // Install Service Worker
 self.addEventListener('install', (event) => {
