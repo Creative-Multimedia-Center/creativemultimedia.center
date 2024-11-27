@@ -3,13 +3,16 @@ name: Deploy to GitHub Pages
 on:
   push:
     tags:
-      - "v*"
+      - "v.*"
     branches:
       - release
   workflow_dispatch:
   repository_dispatch:
     types:
       - buildhook
+
+permissions:
+  contents: write
 
 jobs:
   build:
