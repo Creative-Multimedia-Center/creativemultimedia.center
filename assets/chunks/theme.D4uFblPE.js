@@ -1,1 +1,0 @@
-import{r as c,o as n,c as s,a,_ as r}from"./framework.uZ_6N9kU.js";const l={class:"flex flex-col p-4 w-full items-center h-full justify-center"};function p(t,o){const e=c("content");return n(),s("div",l,[a(e,{class:"prose"})])}const _={},f=r(_,[["render",p]]),m={Layout:f,enhanceApp({app:t,router:o,siteData:e}){}};export{m as R};
