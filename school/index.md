@@ -10,7 +10,11 @@ const CourseList = defineClientComponent(() => {
   return import('../.vitepress/components/CourseList.vue')
 })
 
+import { data } from './courses.data'
+
   </script>
+
+{{data}}
 
 <CourseList />
 
